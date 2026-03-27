@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investor Briefing: Parth Chopra</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400;1,8..60,500&display=swap');
+
+  @page {
+    size: letter;
+    margin: 0.9in 1.1in 1in 1.1in;
+  }
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Source Serif 4", "Georgia", "Times New Roman", serif;
+    font-size: 10.5pt;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #fff;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "liga" 1, "kern" 1;
+  }
+
+  a {
+    color: #92400e;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p {
+    margin-bottom: 0.65rem;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  /* ========== COVER ========== */
+
+  .cover {
+    page-break-after: always;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0 2rem;
+  }
+
+  .cover-rule {
+    width: 60px;
+    height: 3px;
+    background: #92400e;
+    margin-bottom: 2.5rem;
+    border: none;
+  }
+
+  .cover h1 {
+    font-family: "Cormorant Garamond", "Georgia", serif;
+    font-size: 42pt;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    color: #1a1a1a;
+    margin-bottom: 0.35rem;
+  }
+
+  .cover .subtitle {
+    font-family: "Source Serif 4", "Georgia", serif;
+    font-size: 14pt;
+    color: #6b5d4d;
+    font-style: italic;
+    margin-bottom: 2.25rem;
+  }
+
+  /* Fit badge */
+  .fit-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0 0.6rem;
+  }
+
+  .fit-badge {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #92400e;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .fit-number {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 28pt;
+    font-weight: 700;
+    color: #92400e;
+    line-height: 1;
+  }
+
+  .fit-percent {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: #92400e;
+    vertical-align: super;
+    margin-left: 1px;
+  }
+
+  .fit-label-block {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .fit-label {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+  }
+
+  .fit-explanation {
+    font-size: 11pt;
+    color: #6b5d4d;
+    font-style: italic;
+    max-width: 540px;
+    margin-bottom: 1.75rem;
+    line-height: 1.55;
+    text-align: left;
+  }
+
+  /* Cover metadata */
+  .cover-meta {
+    margin-top: 0.5rem;
+  }
+
+  .meta-row {
+    line-height: 1.9;
+  }
+
+  .meta-label {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+    display: inline-block;
+    width: 110px;
+  }
+
+  .meta-value {
+    font-family: "Source Serif 4", "Georgia", serif;
+    font-size: 9.5pt;
+    color: #44403c;
+  }
+
+  .meta-value a {
+    color: #44403c;
+  }
+
+  .prepared-for {
+    margin-top: 2rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid #e5e0d8;
+    font-size: 10pt;
+    color: #6b5d4d;
+  }
+
+  .prepared-for strong {
+    color: #1a1a1a;
+    font-size: 10.5pt;
+  }
+
+  .company-desc {
+    font-size: 9pt;
+    font-style: italic;
+    color: #8c7e6a;
+    display: block;
+    margin-top: 0.2rem;
+    line-height: 1.5;
+  }
+
+  .cover .date-line {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+    margin-top: 1.25rem;
+  }
+
+  /* ========== HEADINGS ========== */
+
+  h2 {
+    font-family: "Cormorant Garamond", "Georgia", serif;
+    font-size: 20pt;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1.5px solid #e5e0d8;
+    letter-spacing: -0.01em;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    font-family: "Cormorant Garamond", "Georgia", serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: #44403c;
+    margin-top: 1.5rem;
+    margin-bottom: 0.4rem;
+    page-break-after: avoid;
+  }
+
+  /* ========== ABOUT ========== */
+
+  .about {
+    font-size: 11pt;
+    color: #44403c;
+    line-height: 1.65;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+
+  /* ========== CAREER TIMELINE ========== */
+
+  .timeline {
+    margin-top: 0.25rem;
+  }
+
+  .career-entry {
+    margin-bottom: 0.7rem;
+    padding-left: 1.1rem;
+    border-left: 2px solid #d6d3d1;
+    page-break-inside: avoid;
+  }
+
+  .career-entry.current {
+    border-left-color: #92400e;
+  }
+
+  .career-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .career-entry .role {
+    font-family: "Source Serif 4", "Georgia", serif;
+    font-size: 10.5pt;
+    color: #1a1a1a;
+  }
+
+  .career-entry .period {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8pt;
+    font-weight: 500;
+    color: #8c7e6a;
+    font-style: italic;
+    white-space: nowrap;
+    margin-left: 1rem;
+    flex-shrink: 0;
+  }
+
+  .career-entry .note {
+    font-size: 10pt;
+    color: #6b5d4d;
+    margin-top: 0.15rem;
+    line-height: 1.5;
+  }
+
+  .education {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-left: 1.1rem;
+    border-left: 2px solid #d6d3d1;
+    font-style: italic;
+    font-size: 10pt;
+    color: #6b5d4d;
+  }
+
+  .edu-year {
+    font-style: normal;
+    font-size: 9pt;
+    color: #8c7e6a;
+  }
+
+  /* ========== PORTFOLIO TABLE ========== */
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0.5rem 0 0.75rem;
+    font-size: 9.5pt;
+  }
+
+  thead th {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    text-align: left;
+    font-weight: 600;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+    padding: 0.5rem 0.65rem;
+    border-bottom: 1.5px solid #e5e0d8;
+  }
+
+  tbody td {
+    padding: 0.45rem 0.65rem;
+    color: #44403c;
+    vertical-align: top;
+    line-height: 1.4;
+    border-bottom: none;
+  }
+
+  tbody tr.alt td {
+    background: #faf8f5;
+  }
+
+  .portfolio-note {
+    font-size: 8.5pt;
+    color: #8c7e6a;
+    font-style: italic;
+    display: block;
+    margin-top: 0.1rem;
+  }
+
+  .source-note {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 7.5pt;
+    color: #8c7e6a;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  /* ========== PRESS ========== */
+
+  .press-item {
+    margin-bottom: 0.85rem;
+    page-break-inside: avoid;
+  }
+
+  .press-title {
+    font-family: "Source Serif 4", "Georgia", serif;
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1a1a1a;
+  }
+
+  .press-link {
+    color: #1a1a1a;
+  }
+
+  .press-source {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8.5pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+    margin-top: 0.05rem;
+  }
+
+  .press-summary {
+    font-size: 10pt;
+    color: #6b5d4d;
+    margin-top: 0.2rem;
+    line-height: 1.5;
+  }
+
+  /* ========== BLOCKQUOTES ========== */
+
+  .quote-block {
+    margin-bottom: 1rem;
+    page-break-inside: avoid;
+  }
+
+  blockquote {
+    margin: 0.5rem 0;
+    padding: 0.85rem 1.15rem;
+    border-left: 3px solid #92400e;
+    background: #faf8f5;
+    font-style: italic;
+    font-size: 10.5pt;
+    color: #44403c;
+    line-height: 1.55;
+    page-break-inside: avoid;
+  }
+
+  blockquote p {
+    margin: 0;
+    text-align: left;
+  }
+
+  blockquote cite {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8.5pt;
+    color: #8c7e6a;
+    font-style: normal;
+    display: block;
+    margin-top: 0.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  .relevance-note {
+    font-size: 10pt;
+    color: #6b5d4d;
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+    padding-left: 1.15rem;
+    font-style: normal;
+    line-height: 1.5;
+  }
+
+  /* ========== GAME PLAN ========== */
+
+  .how-they-think {
+    background: #faf8f5;
+    padding: 1rem 1.25rem;
+    border-left: 4px solid #92400e;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 10.5pt;
+    color: #44403c;
+    line-height: 1.6;
+  }
+
+  /* Dot items: connections, questions, avoid */
+  .dot-item {
+    margin-bottom: 0.75rem;
+    padding-left: 1.1rem;
+    position: relative;
+    page-break-inside: avoid;
+  }
+
+  .dot-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+  }
+
+  .connection-item::before {
+    background: #4a8b3f;
+  }
+
+  .question-item::before {
+    background: #5b7b8d;
+  }
+
+  .avoid-item::before {
+    background: #b5542a;
+  }
+
+  .dot-title {
+    font-weight: 600;
+    font-size: 10.5pt;
+    color: #1a1a1a;
+  }
+
+  .question-item .dot-title {
+    font-style: italic;
+  }
+
+  .avoid-item .dot-title {
+    color: #b5542a;
+  }
+
+  .dot-detail {
+    font-size: 10pt;
+    color: #6b5d4d;
+    margin-top: 0.15rem;
+    line-height: 1.5;
+    padding-left: 0;
+  }
+
+  /* ========== FIT DETAILS ========== */
+
+  .fit-details {
+    background: #faf8f5;
+    border: 1px solid #e5e0d8;
+    padding: 1rem 1.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .fit-details-heading {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8.5pt;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #8c7e6a;
+    margin-bottom: 0.65rem;
+  }
+
+  .fit-detail-row {
+    margin-bottom: 0.45rem;
+    font-size: 10pt;
+    line-height: 1.5;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .fit-detail-label {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #92400e;
+    width: 140px;
+    flex-shrink: 0;
+    padding-top: 0.15rem;
+  }
+
+  .fit-detail-value {
+    color: #44403c;
+    font-size: 10pt;
+  }
+
+  /* ========== OTHER INVESTORS ========== */
+
+  .investor-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+  }
+
+  .investor-card {
+    padding: 0.85rem 1.1rem;
+    border: 1px solid #e5e0d8;
+    background: #faf8f5;
+    page-break-inside: avoid;
+  }
+
+  .investor-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .investor-card-name {
+    font-family: "Source Serif 4", "Georgia", serif;
+    font-size: 11pt;
+    color: #1a1a1a;
+  }
+
+  .investor-card-fund {
+    font-size: 10pt;
+    color: #8c7e6a;
+    font-weight: 400;
+  }
+
+  .investor-card-fit {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 15pt;
+    color: #92400e;
+    white-space: nowrap;
+  }
+
+  .investor-card-why {
+    font-size: 10pt;
+    color: #6b5d4d;
+    margin-top: 0.25rem;
+    line-height: 1.5;
+  }
+
+  .investor-card-lead {
+    font-size: 9.5pt;
+    color: #44403c;
+    margin-top: 0.2rem;
+    line-height: 1.45;
+  }
+
+  .investor-card-links {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 7.5pt;
+    margin-top: 0.3rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* ========== QUICK REFERENCE CARD ========== */
+
+  .quick-ref {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    background: #faf8f5;
+    border: 1px solid #e5e0d8;
+    padding: 1.25rem 1.5rem;
+    margin-top: 2rem;
+    page-break-inside: avoid;
+  }
+
+  .qr-heading {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 11pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #1a1a1a;
+    margin-bottom: 0.85rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1.5px solid #e5e0d8;
+  }
+
+  .qr-row {
+    margin-bottom: 0.55rem;
+    font-size: 9.5pt;
+    color: #44403c;
+    line-height: 1.5;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .qr-label {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #92400e;
+    width: 110px;
+    flex-shrink: 0;
+    padding-top: 0.1rem;
+  }
+
+  .qr-value {
+    flex: 1;
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 9.5pt;
+    color: #44403c;
+  }
+
+  .qr-list {
+    margin: 0;
+    padding-left: 1.1rem;
+    font-size: 9.5pt;
+  }
+
+  .qr-list li {
+    margin-bottom: 0.15rem;
+  }
+
+  .qr-warn {
+    color: #b5542a;
+  }
+
+  .qr-warn .qr-label {
+    color: #b5542a;
+  }
+
+  /* ========== FOOTER ========== */
+
+  .page-footer {
+    margin-top: 3rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e5e0d8;
+    text-align: right;
+  }
+
+  .footer-text {
+    font-family: "Inter", "Helvetica Neue", sans-serif;
+    font-size: 8pt;
+    color: #8c7e6a;
+    letter-spacing: 0.02em;
+  }
+
+  /* ========== PRINT ========== */
+
+  @media print {
+    body {
+      font-size: 10.5pt;
+    }
+
+    .cover {
+      min-height: 88vh;
+    }
+
+    h2 {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+
+    h3 {
+      page-break-after: avoid;
+      page-break-inside: avoid;
+    }
+
+    blockquote,
+    .quote-block,
+    .investor-card,
+    .dot-item,
+    .career-entry,
+    .press-item,
+    .quick-ref,
+    .fit-section,
+    .how-they-think,
+    .fit-details {
+      page-break-inside: avoid;
+    }
+
+    p {
+      orphans: 4;
+      widows: 4;
+    }
+
+    table {
+      page-break-inside: auto;
+    }
+
+    tr {
+      page-break-inside: avoid;
+    }
+
+    thead {
+      display: table-header-group;
+    }
+
+    .quick-ref {
+      page-break-before: auto;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="cover-rule"></div>
+  <h1>Parth Chopra</h1>
+  <div class='subtitle'>Principal / VP, Crypto Team &middot; Bain Capital Crypto</div>
+  
+        <div class="fit-section">
+            <div class="fit-badge"><span class="fit-number">74</span><span class="fit-percent">%</span></div>
+            <div class="fit-label-block">
+                <div class="fit-label">Fit Score</div>
+            </div>
+        </div>
+        <p class="fit-explanation">Parth is not a traditional VC for this conversation. He is a builder who co-created VC Whisper, a tool in the exact same category as this briefing. The fit is strongest as an advisor, collaborator, or angel. His OpenSea experience scaling a marketplace from 30 to 300+ people, his deep product intuition for social/creator platforms, and his Sequoia scout background make him a high-signal connection for Dazzle. The crypto focus at Bain Capital is tangential to Dazzle&#x27;s core thesis, but his personal interests (social platforms, product innovation, founder tools) align well.</p>
+  <div class="cover-meta">
+    <div class="meta-row"><span class="meta-label">Sweet Spot</span><span class="meta-value">$25K-$100K (angel/scout)</span></div>
+<div class="meta-row"><span class="meta-label">Stage</span><span class="meta-value">Pre-seed / Seed (angel); Series A+ (Bain Capital Crypto)</span></div>
+<div class="meta-row"><span class="meta-label">LinkedIn</span><span class="meta-value"><a href="https://www.linkedin.com/in/parth-chopra/">https://www.linkedin.com/in/parth-chopra/</a></span></div>
+<div class="meta-row"><span class="meta-label">X / Twitter</span><span class="meta-value"><a href="https://x.com/pchopra28">https://x.com/pchopra28</a></span></div>
+<div class="meta-row"><span class="meta-label">Web</span><span class="meta-value"><a href="https://parthchopra.substack.com">https://parthchopra.substack.com</a></span></div>
+  </div>
+  <div class="prepared-for"><span class="meta-label">Prepared for</span><strong>Dazzle</strong><br><span class="company-desc">AI-powered social experience layer for the AT Protocol. Ingests the entire Bluesky firehose, embeds and classifies every post in real time, and lets users shape what they see through natural language instructions. Instead of building custom feeds, users type what vibe they want and Dazzle reconfigures itself. Founded by former Stability AI engineers. Runs on a single GPU. Featured in TechCrunch as one of the notable apps building on the AT Protocol.</span></div>
+  <div class="date-line">March 26, 2026</div>
+</div>
+
+<p class="about">Product builder turned investor. Co-founded Laguna (YC W20, fintech). Early employee and Product Lead at OpenSea (30 to 300+ employees, $10B+ GMV). Joined Bain Capital Crypto in 2023. Former Sequoia Capital Scout. Co-built VC Whisper with Tyler Richards: an AI tool that analyzes pitch transcripts and generates investor briefings for founders. Writes on Substack about venture, public markets, and crypto.</p>
+<h2>Career Path</h2>
+<div class="timeline">
+<div class="career-entry current">
+  <div class="career-header"><span class="role"><strong>Principal / VP, Crypto Team</strong>, Bain Capital Crypto</span><span class="period">2023 &ndash; present</span></div>
+  <div class="note">Evaluates and leads investments in crypto infrastructure. Bain Capital Crypto believes the internet is shifting toward open, community-driven, decentralized services.</div>
+</div>
+<div class="career-entry current">
+  <div class="career-header"><span class="role"><strong>Co-builder</strong>, VC Whisper</span><span class="period">2024 &ndash; present</span></div>
+  <div class="note">Built with Tyler Richards. AI tool that analyzes pitch transcripts (what landed, who to talk to next) and generates pre-meeting investor briefings. The &#x27;Prepare&#x27; feature is conceptually identical to this briefing.</div>
+</div>
+<div class="career-entry past">
+  <div class="career-header"><span class="role"><strong>Product Lead (early employee)</strong>, OpenSea</span><span class="period">2021 &ndash; 2023</span></div>
+  <div class="note">Sole PM at hire. Scaled from 30 to 300+ employees, $10B+ GMV. Led payments ($100M+ GMV), chain expansion (6+ chains), API (self-serve, 10% of daily GMV), and protocol (Seaport). Wrote extensively about the experience on Substack.</div>
+</div>
+<div class="career-entry past">
+  <div class="career-header"><span class="role"><strong>Sequoia Capital Scout</strong>, Sequoia Capital</span><span class="period">2021 &ndash; 2023</span></div>
+  <div class="note">Angel investments through Sequoia&#x27;s scout program. $25K-$100K checks, sweet spot $50K. Web3/crypto focus at pre-seed and seed.</div>
+</div>
+<div class="career-entry past">
+  <div class="career-header"><span class="role"><strong>Co-founder</strong>, Laguna (YC W20)</span><span class="period">2019 &ndash; 2021</span></div>
+  <div class="note">Fintech startup. Started as a way to buy real estate together, pivoted to decentralized hedge funds with paying financial content creators. Team of five. Did not find PMF but learned deeply about building. Now inactive.</div>
+</div>
+<div class="career-entry past">
+  <div class="career-header"><span class="role"><strong>Product Manager</strong>, Uber</span><span class="period">2018 &ndash; 2019</span></div>
+  <div class="note">First career role. Product management at scale.</div>
+</div>
+<div class="education">BS Computer Science (Penn Engineering) + BS Economics (Wharton) &mdash; University of Pennsylvania (Jerome Fisher M&amp;T Program) <span class="edu-year">(2018)</span></div>
+</div>
+
+<h2>Press &amp; Appearances</h2>
+<div class="press-item">
+  <div class="press-title"><a href="https://luma.com/88a3y42k" class="press-link">Fireside Chat: On Investing &amp; Building in Crypto &amp; Tech</a></div>
+  <div class="press-source">Penn Blockchain (Luma event) &middot; Jan 2024</div>
+  <div class="press-summary">Spoke to 31 attendees at Penn about crypto venture capital, founding blockchain-adjacent companies, upcoming ecosystem trends, and post-graduation career paths. Offered 1:1 coffee chats the next day.</div>
+</div>
+<div class="press-item">
+  <div class="press-title"><a href="https://parthchopra.substack.com/p/what-i-learned-working-at-a-high" class="press-link">What I learned working at a high-growth crypto startup</a></div>
+  <div class="press-source">Parth&#x27;s Playground (Substack) &middot; Dec 2024</div>
+  <div class="press-summary">Detailed lessons from OpenSea: operating with imperfect information, embracing constant change, building domain expertise, demonstrating progress through tangible proof points. Warned against complacency during hypergrowth. Said scaling successfully rivals finding PMF in difficulty.</div>
+</div>
+<div class="press-item">
+  <div class="press-title"><a href="https://parthchopra.substack.com/p/venture-in-public-markets" class="press-link">Venture in Public Markets</a></div>
+  <div class="press-source">Parth&#x27;s Playground (Substack) &middot; Nov 2025</div>
+  <div class="press-summary">Core thesis: investing in early-stage ventures and public &#x27;longs&#x27; share surprising similarities. Introduced the &#x27;card flip&#x27; framework and the idea of &#x27;baby businesses that everyone prices like they&#x27;re all grown up.&#x27; Identified a structural gap in the 18-month to 4-year horizon where neither hedge funds nor index funds compete.</div>
+</div>
+
+<div class="fit-details">
+<div class="fit-details-heading">Fit Analysis</div>
+<div class="fit-detail-row"><span class="fit-detail-label">Thesis Alignment</span><span class="fit-detail-value">Strong on personal interests. Parth tweets about innovative social platforms (highlighted keik.org, a Japanese social app, for its creativity). He co-built VC Whisper, showing he ships side projects in the AI tooling space. His Substack thesis about &#x27;baby businesses that everyone prices like they&#x27;re all grown up&#x27; maps to Dazzle: a small team running the Bluesky firehose on one GPU, easily underestimated.</span></div>
+<div class="fit-detail-row"><span class="fit-detail-label">Portfolio Pattern</span><span class="fit-detail-value">Indirect. Bain Capital Crypto invests in decentralized infrastructure, which rhymes with AT Protocol&#x27;s open architecture. Parth&#x27;s personal experience at OpenSea (protocol-layer marketplace) and Laguna (social finance) both touch Dazzle&#x27;s intersection of social and protocol-native products.</span></div>
+<div class="fit-detail-row"><span class="fit-detail-label">Stage Fit</span><span class="fit-detail-value">Good for angel. His scout range was $25K-$100K. Dazzle seeking advisory/angel fits within his personal investment capacity, not Bain Capital Crypto&#x27;s institutional checks.</span></div>
+<div class="fit-detail-row"><span class="fit-detail-label">Check Size Fit</span><span class="fit-detail-value">Angel/advisory conversation, not an institutional raise. His scout-era sweet spot of $50K fits a small angel round.</span></div>
+</div>
+
+<h2>Relevant to Your Pitch</h2>
+<div class="quote-block">
+<blockquote>
+  <p>there&#x27;s a new japanese social media site keik dot org -it records and shares you typing your posts -you lose &#x27;points&#x27; when you scroll, gain when you post -on a person&#x27;s profile you see a LIVE video of them using the app its so deranged &amp; creative, completely cracks me up</p>
+  <cite>@pchopra28 on X &middot; 2025</cite>
+</blockquote>
+<p class="relevance-note">Parth is genuinely excited by creative, unconventional social platforms. He called keik.org &#x27;deranged &amp; creative&#x27; as a compliment. Dazzle&#x27;s approach to social (type your vibe, AI reconfigures your feed) is the same kind of creative divergence from standard social patterns. Lead with what makes Dazzle weird and interesting, not what makes it safe.</p>
+</div>
+<div class="quote-block">
+<blockquote>
+  <p>Links are the internet&#x27;s love language.</p>
+  <cite>@pchopra28 on X &middot; Nov 2024</cite>
+</blockquote>
+<p class="relevance-note">Parth thinks about the internet&#x27;s primitives. Dazzle builds on another primitive: the AT Protocol firehose. This maps to his mental model of protocol-layer products from his OpenSea (Seaport protocol) and Bain Capital Crypto (decentralized infrastructure) experience.</p>
+</div>
+<div class="quote-block">
+<blockquote>
+  <p>The fundamental skill involves identifying baby businesses that everyone is pricing like they&#x27;re all grown up, then betting on meaningful transformation before recognition arrives.</p>
+  <cite>Parth&#x27;s Playground (Substack) &middot; Nov 2025</cite>
+</blockquote>
+<p class="relevance-note">Dazzle fits this framing: a small team running the entire Bluesky firehose on a single GPU, easily dismissed as &#x27;just another Bluesky app.&#x27; But the underlying capability (real-time AI classification of an entire social network&#x27;s content) is a platform, not an app. Parth&#x27;s framework rewards this kind of underestimation.</p>
+</div>
+
+<h2>Recent Posts</h2>
+<div class="quote-block">
+<blockquote>
+  <p>there&#x27;s a new japanese social media site keik dot org -it records and shares you typing your posts -you lose &#x27;points&#x27; when you scroll, gain when you post -on a person&#x27;s profile you see a LIVE video of them using the app its so deranged &amp; creative, completely cracks me up</p>
+  <cite>@pchopra28 &middot; 2025</cite>
+</blockquote>
+</div>
+<div class="quote-block">
+<blockquote>
+  <p>Links are the internet&#x27;s love language.</p>
+  <cite>@pchopra28 &middot; Nov 2024</cite>
+</blockquote>
+</div>
+
+<h2>Your Game Plan</h2>
+<h3>How They Think</h3>
+<div class="how-they-think">Parth is a builder first, investor second. He co-founded a startup (Laguna), was sole PM at one of the fastest-growing marketplaces ever (OpenSea), and still ships side projects (VC Whisper). He evaluates through the lens of &#x27;could I have built this?&#x27; and &#x27;does this team understand something others don&#x27;t?&#x27; His Substack reveals a pattern-matching mind: he looks for category mispricings, where everyone thinks something is one thing but it&#x27;s actually another. At OpenSea, he learned that deep domain expertise compounds and that obsessive product usage (CEO Devin used the product constantly) beats secondhand reports. He&#x27;ll want to use Dazzle himself. His personal interests skew toward creative, unconventional social platforms (keik.org tweet) and protocol-layer infrastructure (OpenSea Seaport, Bain Capital Crypto). He values speed and tangible proof over polished decks.</div>
+
+<h3>Where You Connect</h3>
+<div class="dot-item connection-item">
+  <div class="dot-title">He built the other side of this product</div>
+  <div class="dot-detail">Parth co-created VC Whisper, which includes a &#x27;Prepare&#x27; feature that generates investor briefings before meetings. He understands the problem space viscerally. This briefing is being generated by a tool in the same category. The meta-demo writes itself: &#x27;I used something like what you built to prepare for this conversation.&#x27;</div>
+</div>
+<div class="dot-item connection-item">
+  <div class="dot-title">Protocol-native products</div>
+  <div class="dot-detail">Parth spent two years building on the protocol layer at OpenSea (Seaport) and now invests in decentralized infrastructure at Bain Capital Crypto. Dazzle is protocol-native: it consumes the AT Protocol firehose directly, the same architectural pattern. He&#x27;ll immediately understand why building on an open protocol matters.</div>
+</div>
+<div class="dot-item connection-item">
+  <div class="dot-title">Scaling a marketplace from zero</div>
+  <div class="dot-detail">Parth joined OpenSea at 30 people and watched it scale to 300+ with $10B+ GMV. He has firsthand experience with the exact inflection point Dazzle is approaching: small team, real traction, needing to decide how to scale. His OpenSea lessons (hire sparingly, obsessive product usage, avoid complacency) are directly applicable.</div>
+</div>
+<div class="dot-item connection-item">
+  <div class="dot-title">Creative social platforms</div>
+  <div class="dot-detail">His keik.org tweet shows genuine excitement for social products that break conventions. Dazzle&#x27;s &#x27;type your vibe&#x27; interface is that kind of creative departure. He won&#x27;t need convincing that social can be reinvented; he&#x27;s already looking for it.</div>
+</div>
+<div class="dot-item connection-item">
+  <div class="dot-title">Single-GPU infrastructure as a signal</div>
+  <div class="dot-detail">Parth&#x27;s Substack thesis about &#x27;baby businesses everyone prices like they&#x27;re all grown up&#x27; maps perfectly. Running the entire Bluesky firehose (embedding + classification) on a single GPU is the kind of technical efficiency that signals deep engineering. It looks small but the capability is platform-scale.</div>
+</div>
+
+<h3>Predicted Questions</h3>
+<div class="dot-item question-item">
+  <div class="dot-title">&ldquo;What does Dazzle actually do differently than Bluesky&#x27;s built-in feeds?&rdquo;</div>
+  <div class="dot-detail">Bluesky feeds are static, developer-built filter rules. Dazzle uses real-time AI classification of every post in the firehose, then lets users shape what they see with natural language. It&#x27;s the difference between choosing a radio station and telling the DJ what mood you&#x27;re in. Show him the interface: type a sentence, the feed reshapes.</div>
+</div>
+<div class="dot-item question-item">
+  <div class="dot-title">&ldquo;How do you make money on this?&rdquo;</div>
+  <div class="dot-detail">Honest answer: still figuring it out. The immediate path is a premium tier with deeper personalization and conversation tools. But the real asset is a real-time classified index of the entire AT Protocol. That index powers Dazzle today but could power discovery, analytics, or brand intelligence products. Focus on the data asset, not the first monetization surface.</div>
+</div>
+<div class="dot-item question-item">
+  <div class="dot-title">&ldquo;Why the AT Protocol and not Twitter/X or Threads?&rdquo;</div>
+  <div class="dot-detail">Open firehose. Twitter&#x27;s API is $42K/month and rate-limited. Threads has no public API. The AT Protocol gives you the entire stream, authenticated and structured, for free. Dazzle couldn&#x27;t exist on a closed platform. This is why Parth&#x27;s own thesis about decentralized infrastructure matters: open protocols enable products that closed platforms can&#x27;t.</div>
+</div>
+<div class="dot-item question-item">
+  <div class="dot-title">&ldquo;What&#x27;s the bigger play beyond a feed?&rdquo;</div>
+  <div class="dot-detail">The classified index is the platform. Today it powers a personalized feed. Next: real-time trend detection, creator analytics, brand monitoring, content recommendations. Any product that needs to understand &#x27;what is the AT Protocol talking about right now&#x27; can build on what Dazzle already computes. The feed is the wedge, not the ceiling.</div>
+</div>
+
+<h3>Do Not Mention</h3>
+<div class="dot-item avoid-item">
+  <div class="dot-title">Don&#x27;t pitch Dazzle as a &#x27;Bluesky client&#x27;</div>
+  <div class="dot-detail">Parth has deep marketplace and protocol experience. He&#x27;ll pattern-match &#x27;Bluesky client&#x27; to &#x27;NFT marketplace&#x27; and think commodity. Dazzle is an AI classification layer that happens to render as a social experience. Lead with the infrastructure, not the interface.</div>
+</div>
+<div class="dot-item avoid-item">
+  <div class="dot-title">Don&#x27;t oversell crypto or web3 overlap</div>
+  <div class="dot-detail">Just because Parth works in crypto and Dazzle uses a decentralized protocol doesn&#x27;t mean Dazzle is a crypto product. He&#x27;ll see through forced framing. The AT Protocol is decentralized infrastructure, yes, but Dazzle&#x27;s value is the AI layer on top. Let him draw the connection himself.</div>
+</div>
+<div class="dot-item avoid-item">
+  <div class="dot-title">Don&#x27;t underplay the team&#x27;s background</div>
+  <div class="dot-detail">Parth&#x27;s OpenSea post explicitly says tangible proof points matter more than proposals. Former Stability AI engineers running the Bluesky firehose on a single GPU is a proof point. Lead with what you&#x27;ve built and how it works, not where it&#x27;s going.</div>
+</div>
+
+<h2>Other Investors to Pursue</h2>
+<div class="investor-cards">
+<div class="investor-card">
+  <div class="investor-card-header">
+    <div class="investor-card-name"><strong>Tyler Richards</strong> <span class="investor-card-fund">&middot; VC Whisper (co-builder with Parth)</span></div>
+    <div class="investor-card-fit">80%</div>
+  </div>
+  <div class="investor-card-why">Co-built VC Whisper with Parth. If the conversation with Parth goes well, Tyler is the natural second connection. He&#x27;s a builder in the AI tooling space and would understand Dazzle&#x27;s technical approach.</div>
+  <div class="investor-card-lead"><em>Lead with:</em> Parth and Tyler built VC Whisper together. Ask Parth for an intro to Tyler if the conversation resonates.</div>
+  <div class="investor-card-links"><a href="https://x.com/tylerjrichards">X</a></div>
+</div>
+<div class="investor-card">
+  <div class="investor-card-header">
+    <div class="investor-card-name"><strong>Dan Romero</strong> <span class="investor-card-fund">&middot; Farcaster / a]crypto</span></div>
+    <div class="investor-card-fit">78%</div>
+  </div>
+  <div class="investor-card-why">CEO of Farcaster, another decentralized social protocol. Deeply understands the AT Protocol ecosystem, protocol-native social products, and the challenge of building on open infrastructure. Would see Dazzle&#x27;s technical moat immediately.</div>
+  <div class="investor-card-lead"><em>Lead with:</em> Dazzle&#x27;s real-time classification of the AT Protocol firehose is a unique data asset. Farcaster faces similar discovery challenges.</div>
+  <div class="investor-card-links"><a href="https://x.com/dwr">X</a></div>
+</div>
+<div class="investor-card">
+  <div class="investor-card-header">
+    <div class="investor-card-name"><strong>Justine Moore</strong> <span class="investor-card-fund">&middot; a16z</span></div>
+    <div class="investor-card-fit">75%</div>
+  </div>
+  <div class="investor-card-why">Covers creator economy and consumer social at a16z. Published the definitive analysis of social media fragmentation. Would understand Dazzle&#x27;s bet on personalized social experiences over algorithmic feeds.</div>
+  <div class="investor-card-lead"><em>Lead with:</em> Your TechCrunch coverage and the Bluesky firehose infrastructure. a16z has been writing about the &#x27;unbundling of social&#x27; thesis that Dazzle embodies.</div>
+  <div class="investor-card-links"><a href="https://x.com/justine_moore">X</a></div>
+</div>
+<div class="investor-card">
+  <div class="investor-card-header">
+    <div class="investor-card-name"><strong>Jay Graber</strong> <span class="investor-card-fund">&middot; Bluesky PBC</span></div>
+    <div class="investor-card-fit">70%</div>
+  </div>
+  <div class="investor-card-why">CEO of Bluesky. Dazzle is one of the most technically ambitious third-party apps on the AT Protocol. An endorsement or partnership from Bluesky itself would be a force multiplier.</div>
+  <div class="investor-card-lead"><em>Lead with:</em> Running the entire firehose on a single GPU with real-time AI classification. This is the kind of ecosystem development Bluesky wants to showcase.</div>
+  <div class="investor-card-links"><a href="https://x.com/arcalinea">X</a></div>
+</div>
+</div>
+
+<div class="quick-ref">
+<div class="qr-heading">Quick Reference</div>
+<div class="qr-row"><span class="qr-label">Thesis</span><span class="qr-value">Builder first, investor second. Looks for products that seem small but are actually platform-scale. Loves creative social platforms and protocol-native infrastructure.</span></div>
+<div class="qr-row"><span class="qr-label">Style</span><span class="qr-value">Hands-on builder who ships side projects (VC Whisper). Evaluates through &#x27;could I have built this?&#x27; Not a deck person; wants to see the product.</span></div>
+<div class="qr-row"><span class="qr-label">Key Questions</span><div class="qr-value"><ol class="qr-list"><li>How is this different from Bluesky&#x27;s built-in feeds?</li><li>What&#x27;s the bigger play beyond a feed?</li><li>Why the AT Protocol?</li></ol></div></div>
+<div class="qr-row"><span class="qr-label">Proof Points</span><div class="qr-value"><ul class="qr-list"><li>TechCrunch feature as notable AT Protocol app</li><li>Entire Bluesky firehose on a single GPU</li><li>Former Stability AI engineers</li></ul></div></div>
+<div class="qr-row qr-warn"><span class="qr-label">Avoid</span><span class="qr-value">Don&#x27;t call it a &#x27;Bluesky client.&#x27; Don&#x27;t force the crypto angle. Don&#x27;t underplay the engineering.</span></div>
+</div>
+
+
+<div class="page-footer">
+  <span class="footer-text">Generated March 26, 2026 &middot; vc-prepare &middot; Sources: WebSearch, WebFetch</span>
+</div>
+
+</body>
+</html>

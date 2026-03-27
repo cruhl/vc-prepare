@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "generatedAt": "2026-03-26T19:53:00-05:00",
+    "dataSources": ["WebSearch", "WebFetch"],
+    "companyContext": true
+  },
+  "investor": {
+    "name": "Parth Chopra",
+    "role": "Principal / VP, Crypto Team",
+    "fund": "Bain Capital Crypto",
+    "about": "Product builder turned investor. Co-founded Laguna (YC W20, fintech). Early employee and Product Lead at OpenSea (30 to 300+ employees, $10B+ GMV). Joined Bain Capital Crypto in 2023. Former Sequoia Capital Scout. Co-built VC Whisper with Tyler Richards: an AI tool that analyzes pitch transcripts and generates investor briefings for founders. Writes on Substack about venture, public markets, and crypto.",
+    "linkedin": "https://www.linkedin.com/in/parth-chopra/",
+    "twitter": "https://x.com/pchopra28",
+    "website": "https://parthchopra.substack.com",
+    "sweetSpot": "$25K-$100K (angel/scout)",
+    "stageFocus": "Pre-seed / Seed (angel); Series A+ (Bain Capital Crypto)"
+  },
+  "company": {
+    "name": "Dazzle",
+    "website": "https://dazzle.fm",
+    "description": "AI-powered social experience layer for the AT Protocol. Ingests the entire Bluesky firehose, embeds and classifies every post in real time, and lets users shape what they see through natural language instructions. Instead of building custom feeds, users type what vibe they want and Dazzle reconfigures itself. Founded by former Stability AI engineers. Runs on a single GPU. Featured in TechCrunch as one of the notable apps building on the AT Protocol.",
+    "stage": "Pre-seed",
+    "raising": "Angel / advisory"
+  },
+  "fitScore": {
+    "score": 74,
+    "explanation": "Parth is not a traditional VC for this conversation. He is a builder who co-created VC Whisper, a tool in the exact same category as this briefing. The fit is strongest as an advisor, collaborator, or angel. His OpenSea experience scaling a marketplace from 30 to 300+ people, his deep product intuition for social/creator platforms, and his Sequoia scout background make him a high-signal connection for Dazzle. The crypto focus at Bain Capital is tangential to Dazzle's core thesis, but his personal interests (social platforms, product innovation, founder tools) align well.",
+    "thesisAlignment": "Strong on personal interests. Parth tweets about innovative social platforms (highlighted keik.org, a Japanese social app, for its creativity). He co-built VC Whisper, showing he ships side projects in the AI tooling space. His Substack thesis about 'baby businesses that everyone prices like they're all grown up' maps to Dazzle: a small team running the Bluesky firehose on one GPU, easily underestimated.",
+    "portfolioPatternMatch": "Indirect. Bain Capital Crypto invests in decentralized infrastructure, which rhymes with AT Protocol's open architecture. Parth's personal experience at OpenSea (protocol-layer marketplace) and Laguna (social finance) both touch Dazzle's intersection of social and protocol-native products.",
+    "stageFit": "Good for angel. His scout range was $25K-$100K. Dazzle seeking advisory/angel fits within his personal investment capacity, not Bain Capital Crypto's institutional checks.",
+    "checkSizeFit": "Angel/advisory conversation, not an institutional raise. His scout-era sweet spot of $50K fits a small angel round."
+  },
+  "career": [
+    {
+      "role": "Principal / VP, Crypto Team",
+      "company": "Bain Capital Crypto",
+      "startYear": "2023",
+      "endYear": "present",
+      "note": "Evaluates and leads investments in crypto infrastructure. Bain Capital Crypto believes the internet is shifting toward open, community-driven, decentralized services."
+    },
+    {
+      "role": "Co-builder",
+      "company": "VC Whisper",
+      "startYear": "2024",
+      "endYear": "present",
+      "note": "Built with Tyler Richards. AI tool that analyzes pitch transcripts (what landed, who to talk to next) and generates pre-meeting investor briefings. The 'Prepare' feature is conceptually identical to this briefing."
+    },
+    {
+      "role": "Product Lead (early employee)",
+      "company": "OpenSea",
+      "startYear": "2021",
+      "endYear": "2023",
+      "note": "Sole PM at hire. Scaled from 30 to 300+ employees, $10B+ GMV. Led payments ($100M+ GMV), chain expansion (6+ chains), API (self-serve, 10% of daily GMV), and protocol (Seaport). Wrote extensively about the experience on Substack."
+    },
+    {
+      "role": "Sequoia Capital Scout",
+      "company": "Sequoia Capital",
+      "startYear": "2021",
+      "endYear": "2023",
+      "note": "Angel investments through Sequoia's scout program. $25K-$100K checks, sweet spot $50K. Web3/crypto focus at pre-seed and seed."
+    },
+    {
+      "role": "Co-founder",
+      "company": "Laguna (YC W20)",
+      "startYear": "2019",
+      "endYear": "2021",
+      "note": "Fintech startup. Started as a way to buy real estate together, pivoted to decentralized hedge funds with paying financial content creators. Team of five. Did not find PMF but learned deeply about building. Now inactive."
+    },
+    {
+      "role": "Product Manager",
+      "company": "Uber",
+      "startYear": "2018",
+      "endYear": "2019",
+      "note": "First career role. Product management at scale."
+    }
+  ],
+  "education": [
+    {
+      "degree": "BS Computer Science (Penn Engineering) + BS Economics (Wharton)",
+      "institution": "University of Pennsylvania (Jerome Fisher M&T Program)",
+      "year": "2018"
+    }
+  ],
+  "portfolio": [],
+  "press": [
+    {
+      "title": "Fireside Chat: On Investing & Building in Crypto & Tech",
+      "source": "Penn Blockchain (Luma event)",
+      "date": "Jan 2024",
+      "summary": "Spoke to 31 attendees at Penn about crypto venture capital, founding blockchain-adjacent companies, upcoming ecosystem trends, and post-graduation career paths. Offered 1:1 coffee chats the next day.",
+      "url": "https://luma.com/88a3y42k"
+    },
+    {
+      "title": "What I learned working at a high-growth crypto startup",
+      "source": "Parth's Playground (Substack)",
+      "date": "Dec 2024",
+      "summary": "Detailed lessons from OpenSea: operating with imperfect information, embracing constant change, building domain expertise, demonstrating progress through tangible proof points. Warned against complacency during hypergrowth. Said scaling successfully rivals finding PMF in difficulty.",
+      "url": "https://parthchopra.substack.com/p/what-i-learned-working-at-a-high"
+    },
+    {
+      "title": "Venture in Public Markets",
+      "source": "Parth's Playground (Substack)",
+      "date": "Nov 2025",
+      "summary": "Core thesis: investing in early-stage ventures and public 'longs' share surprising similarities. Introduced the 'card flip' framework and the idea of 'baby businesses that everyone prices like they're all grown up.' Identified a structural gap in the 18-month to 4-year horizon where neither hedge funds nor index funds compete.",
+      "url": "https://parthchopra.substack.com/p/venture-in-public-markets"
+    }
+  ],
+  "relevantContent": [
+    {
+      "text": "there's a new japanese social media site keik dot org -it records and shares you typing your posts -you lose 'points' when you scroll, gain when you post -on a person's profile you see a LIVE video of them using the app its so deranged & creative, completely cracks me up",
+      "source": "@pchopra28 on X",
+      "date": "2025",
+      "url": "https://x.com/pchopra28/status/1960065994036052474",
+      "relevance": "Parth is genuinely excited by creative, unconventional social platforms. He called keik.org 'deranged & creative' as a compliment. Dazzle's approach to social (type your vibe, AI reconfigures your feed) is the same kind of creative divergence from standard social patterns. Lead with what makes Dazzle weird and interesting, not what makes it safe."
+    },
+    {
+      "text": "Links are the internet's love language.",
+      "source": "@pchopra28 on X",
+      "date": "Nov 2024",
+      "url": "https://x.com/pchopra28/status/1861170881835249666",
+      "relevance": "Parth thinks about the internet's primitives. Dazzle builds on another primitive: the AT Protocol firehose. This maps to his mental model of protocol-layer products from his OpenSea (Seaport protocol) and Bain Capital Crypto (decentralized infrastructure) experience."
+    },
+    {
+      "text": "The fundamental skill involves identifying baby businesses that everyone is pricing like they're all grown up, then betting on meaningful transformation before recognition arrives.",
+      "source": "Parth's Playground (Substack)",
+      "date": "Nov 2025",
+      "url": "https://parthchopra.substack.com/p/venture-in-public-markets",
+      "relevance": "Dazzle fits this framing: a small team running the entire Bluesky firehose on a single GPU, easily dismissed as 'just another Bluesky app.' But the underlying capability (real-time AI classification of an entire social network's content) is a platform, not an app. Parth's framework rewards this kind of underestimation."
+    }
+  ],
+  "recentTweets": [
+    {
+      "text": "there's a new japanese social media site keik dot org -it records and shares you typing your posts -you lose 'points' when you scroll, gain when you post -on a person's profile you see a LIVE video of them using the app its so deranged & creative, completely cracks me up",
+      "date": "2025",
+      "url": "https://x.com/pchopra28/status/1960065994036052474"
+    },
+    {
+      "text": "Links are the internet's love language.",
+      "date": "Nov 2024",
+      "url": "https://x.com/pchopra28/status/1861170881835249666"
+    }
+  ],
+  "gamePlan": {
+    "howTheyThink": "Parth is a builder first, investor second. He co-founded a startup (Laguna), was sole PM at one of the fastest-growing marketplaces ever (OpenSea), and still ships side projects (VC Whisper). He evaluates through the lens of 'could I have built this?' and 'does this team understand something others don't?' His Substack reveals a pattern-matching mind: he looks for category mispricings, where everyone thinks something is one thing but it's actually another. At OpenSea, he learned that deep domain expertise compounds and that obsessive product usage (CEO Devin used the product constantly) beats secondhand reports. He'll want to use Dazzle himself. His personal interests skew toward creative, unconventional social platforms (keik.org tweet) and protocol-layer infrastructure (OpenSea Seaport, Bain Capital Crypto). He values speed and tangible proof over polished decks.",
+    "connections": [
+      {
+        "title": "He built the other side of this product",
+        "detail": "Parth co-created VC Whisper, which includes a 'Prepare' feature that generates investor briefings before meetings. He understands the problem space viscerally. This briefing is being generated by a tool in the same category. The meta-demo writes itself: 'I used something like what you built to prepare for this conversation.'"
+      },
+      {
+        "title": "Protocol-native products",
+        "detail": "Parth spent two years building on the protocol layer at OpenSea (Seaport) and now invests in decentralized infrastructure at Bain Capital Crypto. Dazzle is protocol-native: it consumes the AT Protocol firehose directly, the same architectural pattern. He'll immediately understand why building on an open protocol matters."
+      },
+      {
+        "title": "Scaling a marketplace from zero",
+        "detail": "Parth joined OpenSea at 30 people and watched it scale to 300+ with $10B+ GMV. He has firsthand experience with the exact inflection point Dazzle is approaching: small team, real traction, needing to decide how to scale. His OpenSea lessons (hire sparingly, obsessive product usage, avoid complacency) are directly applicable."
+      },
+      {
+        "title": "Creative social platforms",
+        "detail": "His keik.org tweet shows genuine excitement for social products that break conventions. Dazzle's 'type your vibe' interface is that kind of creative departure. He won't need convincing that social can be reinvented; he's already looking for it."
+      },
+      {
+        "title": "Single-GPU infrastructure as a signal",
+        "detail": "Parth's Substack thesis about 'baby businesses everyone prices like they're all grown up' maps perfectly. Running the entire Bluesky firehose (embedding + classification) on a single GPU is the kind of technical efficiency that signals deep engineering. It looks small but the capability is platform-scale."
+      }
+    ],
+    "predictedQuestions": [
+      {
+        "question": "What does Dazzle actually do differently than Bluesky's built-in feeds?",
+        "suggestedApproach": "Bluesky feeds are static, developer-built filter rules. Dazzle uses real-time AI classification of every post in the firehose, then lets users shape what they see with natural language. It's the difference between choosing a radio station and telling the DJ what mood you're in. Show him the interface: type a sentence, the feed reshapes."
+      },
+      {
+        "question": "How do you make money on this?",
+        "suggestedApproach": "Honest answer: still figuring it out. The immediate path is a premium tier with deeper personalization and conversation tools. But the real asset is a real-time classified index of the entire AT Protocol. That index powers Dazzle today but could power discovery, analytics, or brand intelligence products. Focus on the data asset, not the first monetization surface."
+      },
+      {
+        "question": "Why the AT Protocol and not Twitter/X or Threads?",
+        "suggestedApproach": "Open firehose. Twitter's API is $42K/month and rate-limited. Threads has no public API. The AT Protocol gives you the entire stream, authenticated and structured, for free. Dazzle couldn't exist on a closed platform. This is why Parth's own thesis about decentralized infrastructure matters: open protocols enable products that closed platforms can't."
+      },
+      {
+        "question": "What's the bigger play beyond a feed?",
+        "suggestedApproach": "The classified index is the platform. Today it powers a personalized feed. Next: real-time trend detection, creator analytics, brand monitoring, content recommendations. Any product that needs to understand 'what is the AT Protocol talking about right now' can build on what Dazzle already computes. The feed is the wedge, not the ceiling."
+      }
+    ],
+    "avoid": [
+      {
+        "topic": "Don't pitch Dazzle as a 'Bluesky client'",
+        "reason": "Parth has deep marketplace and protocol experience. He'll pattern-match 'Bluesky client' to 'NFT marketplace' and think commodity. Dazzle is an AI classification layer that happens to render as a social experience. Lead with the infrastructure, not the interface."
+      },
+      {
+        "topic": "Don't oversell crypto or web3 overlap",
+        "reason": "Just because Parth works in crypto and Dazzle uses a decentralized protocol doesn't mean Dazzle is a crypto product. He'll see through forced framing. The AT Protocol is decentralized infrastructure, yes, but Dazzle's value is the AI layer on top. Let him draw the connection himself."
+      },
+      {
+        "topic": "Don't underplay the team's background",
+        "reason": "Parth's OpenSea post explicitly says tangible proof points matter more than proposals. Former Stability AI engineers running the Bluesky firehose on a single GPU is a proof point. Lead with what you've built and how it works, not where it's going."
+      }
+    ]
+  },
+  "otherInvestors": [
+    {
+      "name": "Tyler Richards",
+      "fund": "VC Whisper (co-builder with Parth)",
+      "fit": 80,
+      "why": "Co-built VC Whisper with Parth. If the conversation with Parth goes well, Tyler is the natural second connection. He's a builder in the AI tooling space and would understand Dazzle's technical approach.",
+      "talkingPoint": "Parth and Tyler built VC Whisper together. Ask Parth for an intro to Tyler if the conversation resonates.",
+      "twitter": "https://x.com/tylerjrichards"
+    },
+    {
+      "name": "Dan Romero",
+      "fund": "Farcaster / a]crypto",
+      "fit": 78,
+      "why": "CEO of Farcaster, another decentralized social protocol. Deeply understands the AT Protocol ecosystem, protocol-native social products, and the challenge of building on open infrastructure. Would see Dazzle's technical moat immediately.",
+      "talkingPoint": "Dazzle's real-time classification of the AT Protocol firehose is a unique data asset. Farcaster faces similar discovery challenges.",
+      "twitter": "https://x.com/dwr"
+    },
+    {
+      "name": "Justine Moore",
+      "fund": "a16z",
+      "fit": 75,
+      "why": "Covers creator economy and consumer social at a16z. Published the definitive analysis of social media fragmentation. Would understand Dazzle's bet on personalized social experiences over algorithmic feeds.",
+      "talkingPoint": "Your TechCrunch coverage and the Bluesky firehose infrastructure. a16z has been writing about the 'unbundling of social' thesis that Dazzle embodies.",
+      "twitter": "https://x.com/justine_moore"
+    },
+    {
+      "name": "Jay Graber",
+      "fund": "Bluesky PBC",
+      "fit": 70,
+      "why": "CEO of Bluesky. Dazzle is one of the most technically ambitious third-party apps on the AT Protocol. An endorsement or partnership from Bluesky itself would be a force multiplier.",
+      "talkingPoint": "Running the entire firehose on a single GPU with real-time AI classification. This is the kind of ecosystem development Bluesky wants to showcase.",
+      "twitter": "https://x.com/arcalinea"
+    }
+  ],
+  "quickReference": {
+    "oneLinerThesis": "Builder first, investor second. Looks for products that seem small but are actually platform-scale. Loves creative social platforms and protocol-native infrastructure.",
+    "oneLinerStyle": "Hands-on builder who ships side projects (VC Whisper). Evaluates through 'could I have built this?' Not a deck person; wants to see the product.",
+    "topQuestions": ["How is this different from Bluesky's built-in feeds?", "What's the bigger play beyond a feed?", "Why the AT Protocol?"],
+    "proofPoints": ["TechCrunch feature as notable AT Protocol app", "Entire Bluesky firehose on a single GPU", "Former Stability AI engineers"],
+    "doNotSay": "Don't call it a 'Bluesky client.' Don't force the crypto angle. Don't underplay the engineering."
+  }
+}
