@@ -10,7 +10,7 @@ By [Parth Chopra](https://x.com/pchopra28) and [Tyler Richards](https://x.com/ty
 
 ## Install
 
-In Claude Code:
+In Claude Code or Claude Chat:
 
 ```
 add skill from vcwhisper.com/vc-prepare-skill.md
