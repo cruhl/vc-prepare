@@ -19,7 +19,7 @@ add skill from vcwhisper.com/vc-prepare-skill.md
 **Alternative:**
 
 ```bash
-claude skill add --from https://github.com/pchopra/vc-prepare-skill
+claude skill add --from https://github.com/cruhl/vc-prepare
 ```
 
 ## Usage
