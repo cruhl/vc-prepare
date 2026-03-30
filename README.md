@@ -13,13 +13,13 @@ By [Parth Chopra](https://x.com/pchopra28) and [Tyler Richards](https://x.com/ty
 In Claude Code or Claude Chat:
 
 ```
-add skill from vcwhisper.com/vc-prepare-skill.md
+claude skill add --from https://github.com/cruhl/vc-prepare
 ```
 
 **Alternative:**
 
 ```bash
-claude skill add --from https://github.com/cruhl/vc-prepare
+add skill from vcwhisper.com/vc-prepare-skill.md
 ```
 
 ## Usage
