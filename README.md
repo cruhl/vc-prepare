@@ -2,6 +2,8 @@
 
 **Know your investor before you walk in.**
 
+[![VC Whisper Prepare](https://vcwhisper.com/og-prepare.png)](https://vcwhisper.com/prepare)
+
 A [Claude Code skill](https://docs.anthropic.com/en/docs/claude-code/skills) that generates investor meeting briefings. Profile, portfolio, fit assessment, game plan, predicted questions, and alternative investors — all in your terminal.
 
 By [Parth Chopra](https://x.com/pchopra28) and [Tyler Richards](https://x.com/tylerjrichards), powered by [VC Whisper](https://vcwhisper.com).
